@@ -25,6 +25,6 @@
             </feature>
         </config-file>
 
-        <source-file src="src/android/ToastyPlugin.java" target-dir="src/com/stanleyidesis/cordova/plugin" />
+        <source-file src="src/android/" target-dir="src/com/stanleyidesis/cordova/plugin" />
     </platform>
 </plugin>
