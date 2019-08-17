@@ -1,5 +1,5 @@
 // Empty constructor
-function ToastyPlugin() {}
+function CurlLoggingInterceptor() {}
 
 // The function that passes work along to native shells
 // Message is a string, duration may be 'long' or 'short'
@@ -15,7 +15,7 @@ ToastyPlugin.install = function() {
   if (!window.plugins) {
     window.plugins = {};
   }
-  window.plugins.toastyPlugin = new ToastyPlugin();
+  window.plugins.toastyPlugin = new CurlLoggingInterceptor();
   return window.plugins.toastyPlugin;
 };
 cordova.addConstructor(ToastyPlugin.install);
